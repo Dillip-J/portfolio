@@ -1,0 +1,95 @@
+<!-- LIFE SKILLS AND TEAM PROJECTS
+<section id="Life-skills">
+  <h3>life Skills</h3>
+  <div class="grid">
+    <article class="card">
+      <h4>Product Development & Marketing</h4>
+      <p>Built a product from scratch as part of a team and marketed it on a minimal budget. Managed the marketing strategy: logo design, and advertisement.
+        Gained hands-on experience in teamwork, product creation, and market promotion.</p>
+      <div class="team-image">
+      <img src="assests/product buillding challenge.jpeg" alt="Product Building">
+      </div>
+    </article>
+    <article class="card">
+      <h4>Workplace study</h4>
+      <p>We working together for workplace study presentation</p>
+      <div class="team-image">
+      <img src="assests/workplace study.jpeg" alt="Workplace study">
+      </div>
+    </article>
+    <article class="card">
+      <h4>Brand Analysis</h4>
+      <p>Conducted an in-depth business analysis of Boeing, examining market trends, financial performance, and strategic initiatives.
+        Synthesized findings into a professional presentation, highlighting key insights and recommendations.
+        Developed skills in business research, analytical thinking, and effective presentation delivery.</p>
+      <div class="team-image">
+      <img src="assests/Brand analysis.jpeg" alt="Brand Analysis">
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- CASE STUDIES -->
+<section id="case-studies">
+  <h3>Case Studies</h3>
+  <div class="grid">
+    <article class="card">
+      <h4>Innovation & Technology</h4>
+      <p>Technology does not shape the future on its own—how we apply it does.
+        My work explores the intersection of technology, innovation, and market behavior, with a strong focus on sustainability and long-term value creation. 
+        I analyze how emerging technologies can be used to solve real-world problems, transform industries, and create meaningful social and environmental impact.
+        Through in-depth articles and real-world case studies, I examine how businesses can strategically leverage technology to drive innovation, 
+        adapt to evolving markets, and build resilient, future-ready growth models. 
+        At the core of my work is a simple belief: technology should not just accelerate progress—it should make progress sustainable, inclusive, and impactful.
+      </p>
+    </article>
+  </div>
+</section>
+<section id="social-impact">
+  <div class="grid">
+    <article class="card">
+      <h3>Social activities and impact</h3>
+      <p>I actively contribute to social and environmental initiatives that promote sustainability, conservation, and community well-being. I believe long-term progress is 
+        achieved when innovation and responsibility move together. From my school years, I have been involved in environmental awareness and plantation programs. Recently, 
+        I participated in wildlife support initiatives such as bird-nest preparation to help protect species affected by rapid environmental change. I have also taken part 
+        in large-scale sustainability drives, including a plantation initiative where 2,000+ trees were planted along a canal to restore ecological balance. Beyond physical participation, 
+        I contribute financially to donation drives whenever possible, ensuring consistent support for communities in need. Through these efforts, 
+        I aim to demonstrate how individual action—combined with collective responsibility—can create measurable environmental and social impact.
+        <a href="https://www.instagram.com/reel/DOBgmZ4E5mV/?igsh=bHB1cnUxM3F5bHlx" target="_blank"class="tree">Tree plantation drive</a>
+      </p>
+    </article>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <div class="about-content">
+    <div class="about-text">
+      <h3>About Me</h3>
+      <p>I am driven by a passion for building clean, scalable software that solves real-world problems while creating positive impact. Guided by curiosity and purpose, 
+        I transform ideas into meaningful projects, build products, and explore case studies that make a difference. For me, technology is not just a tool—it’s a way to 
+        turn vision into impact. Beyond code, I actively contribute to social and environmental initiatives, combining innovation with responsibility. I strive to create 
+        solutions that are efficient, sustainable, and transformative—where technology drives progress that truly matters.</p>
+    </div>
+
+    <div class="about-image">
+      <img src="images/working.jpg" alt="Working on software">
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h3>Let’s Connect</h3>
+  <p>Open to internships and job opportunities.</p>
+
+  <div class="contact-actions">
+    <a href="mailto:dilli.jalla@fssa.freshworks.com" class="btn-secondary">
+      Contact Me
+    </a>
+    <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank" class="linkedin-link" aria-label="LinkedIn Profile">
+    <img src="https://static.licdn.com/aero-v1/sc/h/8a1a8xqjolkyjbf9n3i40oimj" alt="LinkedIn Logo">
+    </a>
+  </div>
+</section>
+</main> -->

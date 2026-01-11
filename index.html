@@ -6,45 +6,47 @@
   <meta name="description" content="Full Stack Software Trainee Portfolio | Dillip">
   <title>Dillip J | Full Stack Trainee</title>
 
-  <!-- Google Font -->
-  <link rel="stylesheet" href="post.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="post.css">
 </head>
 
 <body>
 
-<!-- NAVBAR -->
 <header class="navbar">
-  <h1 class="logo">Dilli pream jalla</h1>
-  <nav>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#Life-skills">Life Skills</a>
-    <a href="#case-studies">Case Studies</a>
-    <a href="#social-impact">Social Impact</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-  </nav>
+  <div class="nav-container">
+    <h1 class="logo">Dilli pream jalla</h1>
+    <nav>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#Life-skills">Life Skills</a>
+      <a href="#case-studies">Case Studies</a>
+      <a href="#social-impact">Social Impact</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
 </header>
 
 <main>
 
-<!-- HERO -->
 <section class="hero">
   <div class="hero-content">
     <div class="hero-text">
+      <span class="badge">Open to Opportunities</span>
       <h2>Full Stack Software Trainee</h2>
       <p>
         Passionate about building clean, scalable software that solves real-world problems.
         Driven by curiosity and purpose, I transform ideas into meaningful projects and products.
         Beyond code, I create solutions that are innovative, sustainable, and impactful.
       </p>
-      <a href="#projects" class="btn-primary">View My Work</a>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-outline">Get in Touch</a>
+      </div>
     </div>
 
     <div class="dillip-image">
@@ -53,145 +55,147 @@
   </div>
 </section>
 
-<!-- SKILLS -->
-<section id="skills">
+<section id="skills" class="section-padding">
   <h3>Skills</h3>
   <div class="grid">
     <article class="card">
-      <h4>Technical Skills</h4>
-      <ul>
-        <li>Figma</li>
-        <li>HTML, CSS</li>
-        <!-- <li>React.js</li> -->
-        <li>Python & FastAPI</li>
-        <li>SQL & Databases</li>
-        <li>Git</li><!--& Version Control</li> -->
+      <div class="card-icon-header">
+        <i class="fa-solid fa-code"></i>
+        <h4>Technical Skills</h4>
+      </div>
+      <ul class="skill-tags">
+        <li><i class="fa-brands fa-figma"></i> Figma</li>
+        <li><i class="fa-brands fa-html5"></i> HTML</li>
+        <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+        <li><i class="fa-brands fa-python"></i> Python & FastAPI</li>
+        <li><i class="fa-solid fa-database"></i> SQL & Databases</li>
+        <li><i class="fa-brands fa-git-alt"></i> Git</li>
       </ul>
     </article>
 
     <article class="card">
-      <h4>Interpersonal Skills</h4>
-      <ul>
-        <li>Problem Solving</li>
-        <li>Team Collaboration</li>
-        <li>Team Management</li>
-        <li>Clear Communication</li>
-        <li>Interactive Communication</li>
-        <li>Public Speaking</li>
-        <li>Continuous Learning</li>
+      <div class="card-icon-header">
+        <i class="fa-solid fa-users-gears"></i>
+        <h4>Interpersonal Skills</h4>
+      </div>
+      <ul class="skill-tags">
+        <li><i class="fa-solid fa-lightbulb"></i> Problem Solving</li>
+        <li><i class="fa-solid fa-people-group"></i> Team Collaboration</li>
+        <li><i class="fa-solid fa-tasks"></i> Team Management</li>
+        <li><i class="fa-solid fa-comment-dots"></i> Clear Communication</li>
+        <li><i class="fa-solid fa-comments"></i> Interactive Communication</li>
+        <li><i class="fa-solid fa-microphone-lines"></i> Public Speaking</li>
+        <li><i class="fa-solid fa-book-open-reader"></i> Continuous Learning</li>
       </ul>
     </article>
   </div>
 </section>
 
-<!-- PROJECTS -->
-<section id="projects">
+<section id="projects" class="section-padding bg-alt">
   <h3>Projects</h3>
   <div class="grid">
-    <article class="card">
+    <article class="card project-card">
       <h4>frontend Static website</h4>
       <p>frontend static using html and CSS.</p>
-      <a href="https://dillip-j.github.io/lms_project/" target="_blank">View Project</a>
+      <a href="https://dillip-j.github.io/lms_project/" target="_blank" class="project-link">View Project →</a>
     </article>
 
-    <article class="card">
+    <article class="card project-card">
       <h4>Python & SQL </h4>
       <p>Data-driven application website with optimized queries.</p>
     </article>
   </div>
 </section>
-<!-- LIFE SKILLS AND TEAM PROJECTS-->
-<section id="Life-skills">
-  <h3>life Skills</h3>
+
+<section id="Life-skills" class="section-padding">
+  <h3>Life Skills</h3>
   <div class="grid">
-    <article class="card">
-      <h4>Product Development & Marketing</h4>
-      <p>Built a product from scratch as part of a team and marketed it on a minimal budget. Managed the marketing strategy: logo design, and advertisement.
-        Gained hands-on experience in teamwork, product creation, and market promotion.</p>
-      <div class="team-image">
-      <img src="assests/product buillding challenge.jpeg" alt="Product Building">
+    <article class="card image-card">
+      <div class="card-img-wrapper">
+        <img src="assests/product buillding challenge.jpeg" alt="Product Building">
+      </div>
+      <div class="card-body">
+        <h4>Product Development & Marketing</h4>
+        <p>Built a product from scratch as part of a team and marketed it on a minimal budget. Managed the marketing strategy: logo design, and advertisement.</p>
       </div>
     </article>
-    <article class="card">
-      <h4>Workplace study</h4>
-      <p>We working together for workplace study presentation</p>
-      <div class="team-image">
-      <img src="assests/workplace study.jpeg" alt="Workplace study">
+
+    <article class="card image-card">
+      <div class="card-img-wrapper">
+        <img src="assests/workplace study.jpeg" alt="Workplace study">
+      </div>
+      <div class="card-body">
+        <h4>Workplace study</h4>
+        <p>We working together for workplace study presentation</p>
       </div>
     </article>
-    <article class="card">
-      <h4>Brand Analysis</h4>
-      <p>Conducted an in-depth business analysis of Boeing, examining market trends, financial performance, and strategic initiatives.
-        Synthesized findings into a professional presentation, highlighting key insights and recommendations.
-        Developed skills in business research, analytical thinking, and effective presentation delivery.</p>
-      <div class="team-image">
-      <img src="assests/Brand analysis.jpeg" alt="Brand Analysis">
+
+    <article class="card image-card">
+      <div class="card-img-wrapper">
+        <img src="assests/Brand analysis.jpeg" alt="Brand Analysis">
+      </div>
+      <div class="card-body">
+        <h4>Brand Analysis</h4>
+        <p>Conducted an in-depth business analysis of Boeing, examining market trends, financial performance, and strategic initiatives.</p>
       </div>
     </article>
   </div>
 </section>
 
-<!-- CASE STUDIES -->
-<section id="case-studies">
+<section id="case-studies" class="section-padding bg-alt">
   <h3>Case Studies</h3>
-  <div class="grid">
-    <article class="card">
+  <div class="single-column-max">
+    <article class="card accent-card">
       <h4>Innovation & Technology</h4>
-      <p>Technology does not shape the future on its own—how we apply it does.
-        My work explores the intersection of technology, innovation, and market behavior, with a strong focus on sustainability and long-term value creation. 
-        I analyze how emerging technologies can be used to solve real-world problems, transform industries, and create meaningful social and environmental impact.
-        Through in-depth articles and real-world case studies, I examine how businesses can strategically leverage technology to drive innovation, 
-        adapt to evolving markets, and build resilient, future-ready growth models. 
+      <p>
+        Technology does not shape the future on its own—how we apply it does. 
+        My work explores the intersection of technology, innovation, and market behavior...
         At the core of my work is a simple belief: technology should not just accelerate progress—it should make progress sustainable, inclusive, and impactful.
       </p>
     </article>
   </div>
 </section>
-<section id="social-impact">
-  <div class="grid">
-    <article class="card">
+
+<section id="social-impact" class="section-padding">
+  <div class="single-column-max">
+    <article class="card impact-card">
       <h3>Social activities and impact</h3>
-      <p>I actively contribute to social and environmental initiatives that promote sustainability, conservation, and community well-being. I believe long-term progress is 
-        achieved when innovation and responsibility move together. From my school years, I have been involved in environmental awareness and plantation programs. Recently, 
-        I participated in wildlife support initiatives such as bird-nest preparation to help protect species affected by rapid environmental change. I have also taken part 
-        in large-scale sustainability drives, including a plantation initiative where 2,000+ trees were planted along a canal to restore ecological balance. Beyond physical participation, 
-        I contribute financially to donation drives whenever possible, ensuring consistent support for communities in need. Through these efforts, 
+      <p>
+        I actively contribute to social and environmental initiatives... Recently, I participated in wildlife support initiatives... 
         I aim to demonstrate how individual action—combined with collective responsibility—can create measurable environmental and social impact.
-        <a href="https://www.instagram.com/reel/DOBgmZ4E5mV/?igsh=bHB1cnUxM3F5bHlx" target="_blank"class="tree">Tree plantation drive</a>
       </p>
+      <a href="https://www.instagram.com/reel/DOBgmZ4E5mV/?igsh=bHB1cnUxM3F5bHlx" target="_blank" class="tree-link">
+        🌳 Tree plantation drive
+      </a>
     </article>
   </div>
 </section>
 
-<!-- ABOUT -->
-<section id="about" class="about">
+<section id="about" class="about section-padding bg-alt">
   <div class="about-content">
     <div class="about-text">
       <h3>About Me</h3>
-      <p>I am driven by a passion for building clean, scalable software that solves real-world problems while creating positive impact. Guided by curiosity and purpose, 
-        I transform ideas into meaningful projects, build products, and explore case studies that make a difference. For me, technology is not just a tool—it’s a way to 
-        turn vision into impact. Beyond code, I actively contribute to social and environmental initiatives, combining innovation with responsibility. I strive to create 
-        solutions that are efficient, sustainable, and transformative—where technology drives progress that truly matters.</p>
+      <p>I am driven by a passion for building clean, scalable software... For me, technology is not just a tool—it’s a way to turn vision into impact. Beyond code, I actively contribute to social and environmental initiatives, combining innovation with responsibility.</p>
     </div>
-
     <div class="about-image">
       <img src="images/working.jpg" alt="Working on software">
     </div>
   </div>
 </section>
 
-<!-- CONTACT -->
 <section id="contact" class="contact">
-  <h3>Let’s Connect</h3>
-  <p>Open to internships and job opportunities.</p>
+  <div class="contact-container">
+    <h3>Let’s Connect</h3>
+    <p>Open to internships and job opportunities.</p>
 
-  <div class="contact-actions">
-    <a href="mailto:dilli.jalla@fssa.freshworks.com" class="btn-secondary">
-      Contact Me
-    </a>
-    <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank" class="linkedin-link" aria-label="LinkedIn Profile">
-    <img src="https://static.licdn.com/aero-v1/sc/h/8a1a8xqjolkyjbf9n3i40oimj" alt="LinkedIn Logo">
-    </a>
+    <div class="contact-actions">
+      <a href="mailto:dilli.jalla@fssa.freshworks.com" class="btn-white">
+        Contact Me
+      </a>
+      <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank" class="linkedin-link" aria-label="LinkedIn Profile">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+      </a>
+    </div>
   </div>
 </section>
 </main>

@@ -92,4 +92,29 @@
     </a>
   </div>
 </section>
-</main> -->
+</main> -
+
+<section id="projects" class="section-padding bg-alt">
+  <h3>Projects</h3>
+  <div class="grid">
+    <article class="card project-card">
+      <h4>frontend Static website</h4>
+      <p>frontend static using html and CSS.</p>
+      <div class="project-footer">
+        <a href="https://dillip-j.github.io/lms_project/" target="_blank" class="project-btn">
+          View Project <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </div>
+    </article>
+
+    <article class="card project-card">
+      <h4>Python & SQL </h4>
+      <p>Data-driven application website with optimized queries.</p>
+      <div class="project-footer">
+        <a href="#" class="project-btn">
+          Coming Soon <i class="fa-solid fa-code"></i>
+        </a>
+      </div>
+    </article>
+  </div>
+</section>

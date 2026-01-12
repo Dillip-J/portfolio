@@ -118,3 +118,13 @@
     </article>
   </div>
 </section>
+
+
+      <ul class="skill-tags">
+        <li><i class="fa-brands fa-figma"></i> Figma</li>
+        <li><i class="fa-brands fa-html5"></i> HTML</li>
+        <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+        <li><i class="fa-brands fa-python"></i> Python & FastAPI</li>
+        <li><i class="fa-solid fa-database"></i> SQL & Databases</li>
+        <li><i class="fa-brands fa-git-alt"></i> Git</li>
+      </ul>

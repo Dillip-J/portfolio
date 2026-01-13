@@ -487,6 +487,7 @@ section {
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  padding-bottom: 0.2rem;
 }
 
 .linkedin-link svg {
@@ -504,7 +505,7 @@ footer {
   background: #0f172a;
   color: rgba(255,255,255,0.6);
   text-align: center;
-  padding: 2rem;
+  padding: 1.5rem;
   font-size: 0.9rem;
 }
 
